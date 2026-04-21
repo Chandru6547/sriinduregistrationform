@@ -20,7 +20,7 @@ const COLLEGE_DATA = {
   },
   "AVN": {
     years: [2, 3],
-    batches: ["AIDS A", "AIML A", "AIML B", "AIML C", "CSC-A", "DS-A", "DS-B", "ECE A", "ECE B"]
+    batches: ["AIDS A", "AIML A", "AIML B", "AIML C", "CSC-A", "DS-A", "CSE-A", "DS-B", "ECE A", "ECE B"]
   }
 };
 
