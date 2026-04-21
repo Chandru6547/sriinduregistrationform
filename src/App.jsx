@@ -4,7 +4,7 @@ import "./App.css";
 const COLLEGE_DATA = {
   "SRI INDU": {
     years: [1],
-    batches: ["CSE-A", "CSE-B", "CSE-C", "CSE-D", "CSE-E", "CSE-F", "AIML-A", "AIML-B", "AIML-C", "AIML-D", "AIML-E", "AIML-F"]
+    batches: ["CSE A", "CSE B", "CSE C", "CSE D", "CSE E", "CSE F", "AIML A", "AIML B", "AIML C", "AIML D ", "AIML E", "AIML F"]
   },
   "KNRR": {
     years: [1],
