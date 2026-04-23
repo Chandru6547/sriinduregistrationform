@@ -20,7 +20,7 @@ const COLLEGE_DATA = {
   },
   "AVN": {
     years: [2, 3],
-    batches: ["AIDS A", "AIML A", "AIML B", "AIML C", "CSC-A", "DS-A", "CSE-A", "DS-B", "ECE A", "ECE B"]
+    batches: ["AIDS A", "AIML A", "AIML B", "AIML C", "CSC-A", "DS-A", "CSE-A", "CSE-B", "CSE-C","CSE-D", "DS-B", "ECE A", "ECE B"]
   }
 };
 
@@ -76,7 +76,7 @@ function App() {
       if (!response.ok) throw new Error(data.message || "Something went wrong");
 
       setStatus({ type: "success", msg: "Student Registered Successfully 🎉" });
-      
+
       setForm({
         name: "", email: "", regNo: "", phNo: "",
         college: "SRI INDU", year: 1, batch: "CSE-A"
@@ -129,10 +129,10 @@ function App() {
             {/* Dynamic Year Selection */}
             <div className="input-group">
               <label className="label">Year</label>
-              <select 
-                name="year" 
-                value={form.year} 
-                onChange={handleChange} 
+              <select
+                name="year"
+                value={form.year}
+                onChange={handleChange}
                 className="input"
                 // Disable if only 1 option exists to keep UI clean
                 disabled={COLLEGE_DATA[form.college].years.length <= 1}
